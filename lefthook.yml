@@ -17,8 +17,3 @@ pre-commit:
 
     type-check:
       run: yarn type-check
-
-pre-push:
-  commands:
-    build:
-      run: yarn build
