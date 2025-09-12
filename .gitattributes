@@ -1,0 +1,29 @@
+* eol=lf text=auto
+
+*.json               text diff=json
+
+.gitattributes       text export-ignore
+.gitignore           text export-ignore
+.gitkeep             text export-ignore
+
+*.xml                text diff linguist-detectable=true
+
+*.js                 text
+*.ts                 text diff=typescript
+*.tsx                text diff=typescript
+
+*.html               text
+*.xml                text diff
+
+*.png                binary
+*.svg                binary
+*.ico                binary
+*.jpg                binary
+*.jpeg               binary
+*.webp               binary
+
+*.txt                text
+
+*.css                text diff=css
+
+Dockerfile           text

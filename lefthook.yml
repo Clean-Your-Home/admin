@@ -1,0 +1,24 @@
+pre-commit:
+  parallel: true
+  commands:
+    oxlint:
+      glob: '{*.{ts,tsx},src/**/*.{ts,tsx}}'
+      run: yarn lint:oxlint {staged_files}
+      stage_fixed: true
+
+    eslint:
+      glob: '{*.{ts,tsx},src/**/*.{ts,tsx}}'
+      run: yarn lint:eslint {staged_files}
+      stage_fixed: true
+
+    formatting:
+      run: yarn format
+      stage_fixed: true
+
+    type-check:
+      run: yarn type-check
+
+pre-push:
+  commands:
+    build:
+      run: yarn build
