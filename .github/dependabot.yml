@@ -1,13 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: 'pnpm'
+  - package-ecosystem: 'npm'
     directory: '/'
     schedule:
       interval: 'daily'
     open-pull-requests-limit: 10
     target-branch: 'main'
-    reviewers:
-      - 'Daniil-Oberlev'
     assignees:
       - 'Daniil-Oberlev'
     commit-message:
