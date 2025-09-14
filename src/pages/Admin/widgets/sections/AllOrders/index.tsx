@@ -1,3 +1,4 @@
+import { Badge } from '@/shared/Badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/shared/Button'
 import { Input } from '@/shared/Input'
@@ -9,8 +10,8 @@ import {
   TableHeader,
   TableRow
 } from '@/components/ui/table'
-import { Badge } from '@/shared/Badge'
-import { recentOrders } from '../mock'
+
+import { recentOrders } from '../../../mock'
 
 export const AllOrders = () => {
   return (

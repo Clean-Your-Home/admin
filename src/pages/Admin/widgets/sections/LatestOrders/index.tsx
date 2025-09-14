@@ -1,3 +1,4 @@
+import { Badge } from '@/shared/Badge'
 import { Button } from '@/shared/Button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import {
@@ -8,8 +9,9 @@ import {
   TableHeader,
   TableRow
 } from '@/components/ui/table'
-import { Badge } from '@/shared/Badge'
-import { recentOrders } from '../mock'
+
+import { recentOrders } from '../../../mock'
+
 export const LatestOrders = () => {
   return (
     <Card>

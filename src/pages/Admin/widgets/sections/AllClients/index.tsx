@@ -9,7 +9,9 @@ import {
   TableHeader,
   TableRow
 } from '@/components/ui/table'
-import { recentClients } from '../mock'
+
+import { recentClients } from '../../../mock'
+
 export const AllClients = () => {
   return (
     <Card>
