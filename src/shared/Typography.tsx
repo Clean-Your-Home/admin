@@ -22,16 +22,16 @@ const TypographyH1 = ({ children, className }: TypographyProps) => {
 
 const TypographyH2 = ({ children, className }: TypographyProps) => {
   return (
-    <h1 className={cn('text-3xl font-bold tracking-tight sm:text-4xl', className)}>{children}</h1>
+    <h2 className={cn('text-3xl font-bold tracking-tight sm:text-4xl', className)}>{children}</h2>
   )
 }
 
 const TypographyH3 = ({ children, className }: TypographyProps) => {
-  return <h1 className={cn('text-xl font-semibold', className)}>{children}</h1>
+  return <h3 className={cn('text-xl font-bold', className)}>{children}</h3>
 }
 
 const TypographyP = ({ children, className }: TypographyProps) => {
-  return <h1 className={cn('font-medium', className)}>{children}</h1>
+  return <p className={cn('text-xs font-medium', className)}>{children}</p>
 }
 
 export { TypographyH1, TypographyH2, TypographyH3, TypographyP }
