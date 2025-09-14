@@ -27,7 +27,6 @@ export const ModerationStatsSection = ({ reviews, comments, reports }: Moderatio
               <p className='text-2xl font-bold'>
                 {reviews.filter(r => r.status === 'pending').length}
               </p>
-              +
             </div>
           </div>
 
